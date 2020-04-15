@@ -13,7 +13,6 @@
         android:layout_height="192dp"
         android:layout_x="96dp"
         android:layout_y="163dp"
-        android:src="@drawable/logo"
         tools:layout_editor_absoluteX="115dp"
         tools:layout_editor_absoluteY="199dp" />
 
@@ -25,6 +24,7 @@
         android:layout_marginEnd="8dp"
         android:layout_x="112dp"
         android:layout_y="305dp"
+        android:fontFamily="@font/montserrat_regular"
         android:text="Get Started..."
         android:textColor="#FFFFFF"
         android:textSize="29sp"
@@ -39,9 +39,10 @@
         android:layout_x="129dp"
         android:layout_y="347dp"
         android:background="@drawable/bgbtn"
-        android:text="Start"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="START"
         android:textAllCaps="false"
-        android:textColor="#3BB4F2"
+        android:textColor="#254864"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="405dp" />

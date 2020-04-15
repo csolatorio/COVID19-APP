@@ -10,8 +10,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="105dp"
+        android:layout_marginLeft="95dp"
         android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_bold"
         android:text="Set Activity"
         android:textColor="#254864"
         android:textFontWeight="900"
@@ -22,7 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="80dp"
-        android:text="Activity"
+        android:text="Activity :"
+        android:fontFamily="@font/montserrat_bold"
         android:textColor="#000000"
         android:textFontWeight="900"
         android:textSize="18sp" />
@@ -30,16 +33,17 @@
     <Spinner
         android:id="@+id/spinner1"
         android:layout_width="279dp"
-        android:layout_height="22dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="110dp" />
+        android:layout_marginTop="100dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="150dp"
-        android:text="Time"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Choose Time :"
         android:textColor="#000000"
         android:textFontWeight="900"
         android:textSize="18sp" />
@@ -50,6 +54,7 @@
         android:layout_height="45dp"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="250dp"
+        android:fontFamily="@font/montserrat_bold"
         android:background="@drawable/btnblue"
         android:text="Add"
         android:textColor="#ffffff"
@@ -57,8 +62,9 @@
 
     <EditText
         android:id="@+id/time"
-        android:layout_width="279dp"
+        android:layout_width="255dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_regular"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="170dp"
         android:ems="10"
