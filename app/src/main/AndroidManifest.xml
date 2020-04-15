@@ -12,9 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Settings"></activity>
-        <activity android:name=".Reminder"/>
-        <activity android:name=".Alarms"/>
+        <activity android:name=".DReport"></activity>
+        <activity android:name=".Settings" />
+        <activity android:name=".Reminder" />
+        <activity android:name=".Alarms" />
         <activity android:name=".Menu2" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Safe</string>
     <string-array name="names">
-    <item></item>
+        <item></item>
         <item>Home</item>
         <item>Workplace</item>
         <item>Outside</item>
