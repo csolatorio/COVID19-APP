@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Menu2">
+
+    <ImageView
+        android:id="@+id/alarm"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:layout_x="46dp"
+        android:layout_y="102dp"
+        android:src="@drawable/alarm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="83dp"
+        android:layout_y="204dp"
+        android:text="Alarm"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/remind"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:layout_x="204dp"
+        android:layout_y="102dp"
+        android:src="@drawable/reminder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="203dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Reminder"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/setting"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:layout_x="48dp"
+        android:layout_y="258dp"
+        android:src="@drawable/settings" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="361dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Settings"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/report"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:layout_x="202dp"
+        android:layout_y="256dp"
+        android:src="@drawable/rep" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="222dp"
+        android:layout_y="358dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Daily Report"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/home_mode"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        android:layout_x="51dp"
+        android:layout_y="431dp"
+        android:src="@drawable/home" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="92dp"
+        android:layout_y="534dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Home"
+        android:textColor="#000000" />
+
+</AbsoluteLayout>
