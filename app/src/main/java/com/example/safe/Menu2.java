@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class Menu2 extends AppCompatActivity {
-    ImageView remind, setting;
+    ImageView remind, setting, report;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class Menu2 extends AppCompatActivity {
         setContentView(R.layout.activity_menu2);
         setting = (ImageView) findViewById(R.id.setting);
         remind = (ImageView)findViewById(R.id.remind);
+        report = (ImageView)findViewById(R.id.report);
 
         remind.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,12 @@ public class Menu2 extends AppCompatActivity {
 
             }
         });
+        report.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openReport();
+            }
+        });
     }
     public void openSettings() {
         Intent intent = new Intent(this, Settings.class);
@@ -39,5 +46,9 @@ public class Menu2 extends AppCompatActivity {
     private void openRemind() {
         Intent i = new Intent(this, Reminder.class);
         startActivity(i);
+    }
+    public void openReport() {
+        Intent intent = new Intent(this, Reports.class);
+        startActivity(intent);
     }
 }

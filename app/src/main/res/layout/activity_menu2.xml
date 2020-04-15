@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#F2F2F2"
     tools:context=".Menu2">
 
     <ImageView
@@ -26,8 +26,8 @@
 
     <ImageView
         android:id="@+id/remind"
-        android:layout_width="119dp"
-        android:layout_height="102dp"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
         android:layout_x="204dp"
         android:layout_y="102dp"
         android:src="@drawable/reminder" />
@@ -35,7 +35,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="235dp"
+        android:layout_x="225dp"
         android:layout_y="203dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Reminder"
@@ -43,8 +43,8 @@
 
     <ImageView
         android:id="@+id/setting"
-        android:layout_width="119dp"
-        android:layout_height="102dp"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
         android:layout_x="48dp"
         android:layout_y="258dp"
         android:src="@drawable/settings" />
@@ -52,7 +52,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="81dp"
+        android:layout_x="74dp"
         android:layout_y="361dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Settings"
@@ -60,8 +60,8 @@
 
     <ImageView
         android:id="@+id/report"
-        android:layout_width="119dp"
-        android:layout_height="102dp"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
         android:layout_x="202dp"
         android:layout_y="256dp"
         android:src="@drawable/rep" />
@@ -69,16 +69,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="222dp"
-        android:layout_y="358dp"
+        android:layout_x="212dp"
+        android:layout_y="359dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Daily Report"
         android:textColor="#000000" />
 
     <ImageView
         android:id="@+id/home_mode"
-        android:layout_width="119dp"
-        android:layout_height="102dp"
+        android:layout_width="99dp"
+        android:layout_height="92dp"
         android:layout_x="51dp"
         android:layout_y="431dp"
         android:src="@drawable/home" />
@@ -86,8 +86,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="92dp"
-        android:layout_y="534dp"
+        android:layout_x="79dp"
+        android:layout_y="530dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Home"
         android:textColor="#000000" />

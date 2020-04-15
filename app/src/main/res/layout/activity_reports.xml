@@ -6,10 +6,11 @@
     android:layout_width="match_parent"
     android:background="@drawable/bgray"
     android:layout_height="match_parent"
-    tools:context=".Reminder">
+    tools:context=".Reports">
+
 
     <ImageView
-        android:id="@+id/btn_add"
+        android:id="@+id/btn_date"
         android:layout_width="100dp"
         android:layout_height="65dp"
         android:layout_marginEnd="10dp"
@@ -17,7 +18,7 @@
         android:layout_marginBottom="29dp"
         android:outlineAmbientShadowColor="#000000"
         android:outlineSpotShadowColor="#000000"
-        android:src="@drawable/add"
+        android:src="@drawable/calendar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
